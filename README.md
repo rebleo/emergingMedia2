@@ -1,6 +1,6 @@
 ## Emerging Media 2, Spring 2019
 #### August 27 - December 21, 2018 | Film + Media, Hunter College
-#### MEDP 28500 - 22156 || Wednesdays 7pm - 9:40 pm || North Building HN-470
+#### IMA 75200-01 || Monday 9:00 am - 12:40 pm || North Building 544
 
 	Professor: Rebecca Leopold
 	Email: rl1697@hunter.cuny.edu
@@ -55,24 +55,30 @@ The [class wiki](https://github.com/rebleo/emergingMedia2/wiki/) is where the re
 ---
 #### Materials:
 * Class Blog
-* [Github](https://www.Github.com/)
-* [F + M Server](https://fm.hunter.cuny.edu/resources/support/accessing-your-graduate-home-directory/)
+* [Sublime Txt Editor](https://www.sublimetext.com/)
+* [Chrome Browser](https://www.google.com/chrome/browser/)
+* [Yr Terminal](https://www.google.com/search?hl=en&q=terminal%20mac%20os)
+* [Github Account](https://www.Github.com/)
+* [F+M Server](https://fm.hunter.cuny.edu/resources/support/accessing-your-graduate-home-directory/)
+
 
 ---
 
 #### Required Reading:
 * There will be a reading every week. Readings will be linked from the class wiki each week.
-* []
 
 #### Technical Resources:
+* Links will be posted to the wiki every week.
 * [Lynda.com](https://www.lynda.com/): HTML, CSS & JavaScript Essential Training
-Subscription to Lynda.com is available through the New York City Library system. Go to[Lynda.com](https://www.lynda.com/) Sign In (upper right corner) > “Sign in with you organization portal” (under Continue button) > Enter your organization’s URL to log in through their portal: for example “bklynlibrary.org” (for a Brooklyn Library member) > Enter Library Card Number and Library Card Pin and you will have access to the assigned video tutorials. A [Lynda.com Kiosk](http://www.hunter.cuny.edu/it/lyndakiosk) is also available on a first come first serve basis at the Technology Resource Center located in Thomas Hunter, Room 402.
+Subscription to Lynda.com is available through the New York City Library system. Go to [Lynda.com](https://www.lynda.com/) Sign In (upper right corner) > “Sign in with you organization portal” (under Continue button) > Enter your organization’s URL to log in through their portal: for example “bklynlibrary.org” (for a Brooklyn Library member) > Enter Library Card Number and Library Card Pin and you will have access to the assigned video tutorials. A [Lynda.com Kiosk](http://www.hunter.cuny.edu/it/lyndakiosk) is also available on a first come first serve basis at the Technology Resource Center located in Thomas Hunter, Room 402.
+
 
 
 #### Suggested Texts:
 * Learning Web Design - Jennifer Niedert Robbins
 * [Web Design w/ HTML, CSS, JavaScript + JQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_3?ie=UTF8&qid=1526310943&sr=8-3&keywords=html+and+css) - Jon Duckett, 2014
-
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+* [Learn Enough](https://www.learnenough.com/)
 ---
 
 #### Course Outline (this is likely to change):
