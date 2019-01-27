@@ -1,5 +1,5 @@
 ## Emerging Media 2, Spring 2019
-#### August 27 - December 21, 2018 | Film + Media, Hunter College
+#### January 25 - May 22 | Film + Media, Hunter College
 #### IMA 75200-01 || Monday 9:00 am - 12:40 pm || North Building 544
 
 	Professor: Rebecca Leopold
