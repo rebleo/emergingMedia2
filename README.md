@@ -35,7 +35,7 @@ Although you may want your laptop for every class, computers should be closed an
 
 ---
 #### Class Blog:
-Using a blog publishing platform such as [WordPress](https://wordpress.com/pricing/?utm_source=bing&utm_campaign=Bing_WPcom_Search_Brand_Desktop_US_en&utm_medium=cpc&keyword=wordpress%20plans&creative=77103330611952&campaignid=282011443&adgroupid=1233652133110440&matchtype=e&device=c&network=s&targetid=kwd-77103327877423:loc-190&locationid=58746&msclkid=b83d091835cf1c6528f35555f30ffd6c) students are required to maintain a weekly blog (one entry per week of the semester) that relates directly to the course and share links to your entries on the [class wiki](https://github.com/rebleo/emergingMedia2/wiki). Blog entries should be at least two paragraphs. I will be looking for the quality as well as the depth of your engagement with the material. 
+Using a blog publishing platform such as [WordPress](https://wordpress.com/pricing/?utm_source=bing&utm_campaign=Bing_WPcom_Search_Brand_Desktop_US_en&utm_medium=cpc&keyword=wordpress%20plans&creative=77103330611952&campaignid=282011443&adgroupid=1233652133110440&matchtype=e&device=c&network=s&targetid=kwd-77103327877423:loc-190&locationid=58746&msclkid=b83d091835cf1c6528f35555f30ffd6c) students are required to maintain a weekly blog (one entry per week of the semester) that relates directly to the course and share links to your entries on the [class wiki](https://github.com/rebleo/emergingMedia2/wiki). Blog entries should be at least two paragraphs. I will be looking for the quality as well as the depth of your engagement with the material.
 
 #### “Share” (or the class Wiki):
 The [class wiki](https://github.com/rebleo/emergingMedia2/wiki/) is where the rest of the syllabus including each day's resources, in-class and take-home assignments will be found. To turn in your homework you must link to it every day using [Markdown](https://www.markdownguide.org/). You are required to post on the wiki. To contribute to the wiki you must set up a [Github](http://www.github.com) account. We will do this in class on the first day.
@@ -98,34 +98,31 @@ Subscription to Lynda.com is available through the New York City Library system.
 * CSS Positioning
 
 ---
-###### Week 4:
+###### [Week 4](https://github.com/rebleo/emergingMedia2/wiki/Week-04):
 * Responsive Web Design
-* CSS Grids + Layouts
+* CSS Flexbox, Grids + Layouts
 
 ---
-###### Week 5:
+###### [Week 5](https://github.com/rebleo/emergingMedia2/wiki/Week-05):
 * CSS Animation
+
+---
+###### [Week 6](https://github.com/rebleo/emergingMedia2/wiki/Week-06):
 * Intro to Bootstrap
 
 ---
-###### Week 6:
-* Bootstrap II
+###### [Week 7](https://github.com/rebleo/emergingMedia2/wiki/Week-07):
+* Whitney Visit - [Programmed: Rules, Codes, + Choreographies in Art](https://whitney.org/exhibitions/programmed)
+* 205 Hudson Visit - [Refiguring the Future](http://www.205hudsongallery.org/calendar/2018/02/09/refiguringthefuture)
+---
+###### [Week 8](https://github.com/rebleo/emergingMedia2/wiki/Week-08):
 * Intro to Programming w/ [p5.js](https://p5js.org/reference/)
 * Variables, Operators + Arrays in JavaScript
-
 ---
-###### Week 7:
-* Whitney Visit? - [Programmed: Rules, Codes, + Choreographies in Art](https://whitney.org/exhibitions/programmed)
+###### [Week 9](https://github.com/rebleo/emergingMedia2/wiki/Week-09):
+* More Programming Concepts
 ---
-###### Week 8:
-* Midterm Critique
-
----
-###### Week 9:
-* Native JavaScript
-* Intro to [jQuery](https://jquery.com/)
----
-###### Week 10:
+###### [Week 10](https://github.com/rebleo/emergingMedia2/wiki/Week-10):
 * TBD
 ---
 ###### Week 11:
@@ -136,10 +133,10 @@ Subscription to Lynda.com is available through the New York City Library system.
 * TBD
 ---
 ###### Week 13:
-* Final Project User Testing
+* TBD
 ---
 ###### Week 14:
-* Final Project Code Studio
+* Final Project User Testing + Code Studio
 ---
 ###### Week 15:
 * Final Critique
