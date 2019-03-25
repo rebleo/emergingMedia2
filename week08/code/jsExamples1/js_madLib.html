@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Madlibs</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="scripts/modernizr.js"></script> 
+    <noscript>
+      <style type="text/css">
+        #main {display:none;}
+      </style>
+      <div class="noscriptmsg">
+        This page requires JavaScript to be enabled.
+      </div>
+    </noscript>
+    
+    <style>
+	  body { font-family:Arial, Helvetica, sans-serif; }
+	  #main { width: 980px; }
+	  #storyForm { width: 470px; float: left; }
+	  li { line-height: 1.6em; }
+	  #writeLib { width: 470px; float: left; padding: 0 10px 0 15px; }
+	  
+	  /* With the @keyframes rule, you can create animations.
+	  http://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp */
+	  @-webkit-keyframes reset {
+		  0% {
+			  opacity: 0;
+			  }
+		  100% {
+			  opacity: 0;
+			  }
+		}
+	
+	  @-webkit-keyframes fade-in {
+		  0% {
+			  opacity: 0;
+			  }
+		  60% {
+			  opacity: .6;
+			  }
+		  100% {
+			  opacity: 1;
+			  }
+			}
+	  
+	  .fade-in {
+		  -webkit-animation-name: reset, fade-in;
+		  -webkit-animation-duration: 3s;
+		  -webkit-animation-timing-function: ease-in;
+		  -webkit-animation-iteration-count: 1;
+		}
+	  
+	  .fade-in.one {-webkit-animation-delay: 0, 0;}
+	  .fade-in.two {-webkit-animation-delay: 0, 1s;}
+	</style>
+
+    <script>
+	  //create a function to assemble the story
+      function makeLibs() {
+		  story = "<h2><span class='fade-in one'>Migrations</span></h2><p><span class='fade-in two'>In " + 
+		  document.madlibs.input1.value + ", " +
+		  " a child named " +
+		  document.madlibs.input2.value + " " +
+		  document.madlibs.input3.value +
+		  " to a new land and had to build a " +
+		  document.madlibs.input4.value +
+		  " for shelter.</span></p>";
+		  //write the story to a div in the page
+		  document.getElementById("writeLib").innerHTML=story;
+		}
+    </script>
+    
+  </head>
+
+  <body>
+    <div id="main">
+      <form name="madlibs" id="storyForm">
+        <fieldset> <!--Used to logically group sections of a form-->
+        
+          <legend>Help Generate a Story</legend> <!--Used to add captions to a fieldset-->
+          <ul>
+          <li>
+          <label for="year">Select a year:<em>*</em> <select name="input1" required> <option value="1993">1993</option> <option selected="selected" value="1994">1994</option> <option value="1995">1995</option> <option value="1996">1996</option> </select></label>
+          </li>
+          <li>
+          <label for="firstname">First Name:<em>*</em> <input type="text" name="input2" placeholder="First Name" size="30" required /></label>
+          </li>
+          <li>
+          <label for="verb">Past Tense Verb:<em>*</em> <input type="text" name="input3" placeholder="Verb" size="30" required /></label>
+          </li>
+          <li>
+          <label for="shelter">A shelter:<em>*</em> <input type="text" name="input4" placeholder="A Shelter" size="30" required /></label>
+          </li>
+          </ul>
+        </fieldset>
+        
+        <p>
+        <!-- This button runs the function that compiles the story -->
+        <input type="button" value="Create Story" onClick ="makeLibs()">
+        <input type="reset" />
+      </p>
+    </form>
+
+
+      <div id="writeLib"></div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Monthly Budget</title>
+  <style>
+    form { width:400px; height: 400px }
+  </style>
+</head>
+
+<body>
+  <form action="" method="post" id="budget">
+    <fieldset>
+      <p>Rent: <input type="text" name="rent" id="rent" placeholder="Rent/Mortgage" required /></p>
+      <p>Bills: <input type="text" name="bills" id="bills" placeholder="Bills" required /></p>
+      <p>Allowance: <input type="text" name="allowance" id="allowance" placeholder="Allowance" required /></p>
+      <p><input type="submit" value="Calculate" id="submit" /></p>
+      <p>Total: <input type="text" name="total" id="total" placeholder="Monthly Budget" /></p>
+    </fieldset>
+  </form>
+
+<!-- By placing JavaScript at the bottom of the page, it does not slow the loading of the HTML content -->
+<script>
+function calculate() {
+	'use strict'; //strict mode is a way to opt in to a restricted variant of JavaScript
+	//var rent = document.getElementById('rent').value;
+  var rent = document.querySelector('#rent').value;
+	//var bills = document.getElementById('bills').value;
+  var bills = document.querySelector('#bills').value;
+	//var allowance = document.getElementById('allowance').value;
+  var allowance = document.querySelector('#allowance').value;
+	// parseInt() function parses a string and returns an integer (each input type is text)
+	var total = parseInt(rent) + parseInt(bills) + parseInt(allowance);
+	//document.getElementById('total').value = total;
+  document.querySelector('#total').value = total;
+	return false;
+}
+//initialize function
+function init() {
+	  'use strict';
+	  //document.getElementById('budget').onsubmit = calculate;
+    document.querySelector('#budget').onsubmit = calculate;
+}
+window.onload = init;
+</script>
+</body>
+</html>

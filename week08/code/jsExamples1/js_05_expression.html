@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Expression &amp; Control Flow</title>
+<script>
+  //expression - comibation of values, variables, functions
+  //strings of true and false are printed to the browser
+  //due to comparison operators - < > ==
+  document.write("a: " + (42 > 3) + "<br />");
+  document.write("b: " + (89 < 3) + "<br />");
+  document.write("c: " + (10 == 5) + "<br />");
+  document.write("<hr />");
+  document.write("<br />");
+</script>
+</head>
+
+<body>
+<script>
+//operator precedence
+//Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
+document.write(10 + 2 * 6);
+document.write("<br />");
+document.write((10 + 2) * 6);
+</script>
+
+<br />
+<hr />
+<br />
+
+<script>
+//relational operator
+var month = 11;
+if (month <= 3 || month == 12) document.write("It's winter")
+else (document.write("It's not winter"));
+</script>
+
+<br />
+<hr />
+<br />
+
+<script>
+//data converstion
+a = 3.5;
+b = "3.5";
+if (a == b) document.write("1"); //== equality operator
+if (a === b) document.write("2"); //=== is exactly equal to - both value and data type (identity operator)
+</script>
+
+<br />
+<hr />
+<br />
+
+<script>
+//with statment for simplification by reducing many references to one object
+var phrase="The kid runs quickly."
+with(phrase) {
+document.write("The phrase is " + length + " characters.<br />");
+document.write("In upper case it's: " + toUpperCase());
+}
+</script>
+
+</body>
+</html>

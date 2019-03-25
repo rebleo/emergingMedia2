@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>Test Audio on Hover</title>
+    <style>
+      body {
+        background-image: url("whiteHouse.jpg");
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+      .grid-container {
+        display: grid;
+        position: absolute;
+        left: 0; top:0;
+        min-height: 100vh;
+        min-width: 100vw;
+        grid-template-columns: auto auto auto; /* 3 column gird */
+        grid-template-rows: auto auto auto;
+        /*background-image: url("whiteHouse.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;*/
+      }
+      /* this is just to see the sound boxes */
+      .gridSnd {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <!--<div id="main">
+      <img src="trump.jpg">-->
+
+      <div class="grid-container">
+        <div class="gridSnd" onmouseover="playSound('clip1')"
+          onmouseout="stopSound('clip1')"></div>
+        <audio id='clip1' src="audio/snd01.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip2')"
+          onmouseout="stopSound('clip2')"></div>
+        <audio id='clip2' src="audio/snd02.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip3')"
+          onmouseout="stopSound('clip3')"></div>
+        <audio id='clip3' src="audio/snd03.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip4')"
+          onmouseout="stopSound('clip4')"></div>
+        <audio id='clip4' src="audio/snd04.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip5')"
+          onmouseout="stopSound('clip5')"></div>
+        <audio id='clip5' src="audio/snd05.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip6')"
+          onmouseout="stopSound('clip6')"></div>
+        <audio id='clip6' src="audio/snd06.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip7')"
+          onmouseout="stopSound('clip7')"></div>
+        <audio id='clip7' src="audio/snd07.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip8')"
+          onmouseout="stopSound('clip8')"></div>
+        <audio id='clip8' src="audio/snd08.mp3"></audio>
+
+        <div class="gridSnd" onmouseover="playSound('clip9')"
+          onmouseout="stopSound('clip9')"></div>
+        <audio id='clip9' src="audio/snd09.mp3"></audio>
+      </div>
+    <!--</div>-->
+
+    <script>
+    // https://www.w3schools.com/jsref/met_audio_play.asp
+    function playSound(soundobj) {
+      var thissound=document.getElementById(soundobj);
+      thissound.play();
+    }
+   // turn off this function to let the sound continue
+    function stopSound(soundobj) {
+      var thissound=document.getElementById(soundobj);
+      thissound.pause();
+    }
+  </script>
+  </body>
+</html>
