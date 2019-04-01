@@ -1,0 +1,22 @@
+1.1.19 We walked up to the stage. It was so noisy in the room. Over half the seats were empty.
+
+1.2.19 He was leaning against a wall and his eyes were closing and rolling. His hair was longer. I asked him if he drank and did drugs and he said all of them.
+
+1.4.19 We were sitting on a brownstone stoop, laughing. A woman walked out of the house and stood in front of us. She pulled up the bottoms of her tight black pants to show us her thin muscled calves.
+
+1.5.19 I was on a journey with my parents. They were trying to save me.
+
+1.8.19 A thin black snake was split lengthwise and both pieces were attached to my toes.
+
+1.9.19 There were big chunks of potatoes in a pan. My lover was singing about soup.
+
+1.11.19 The manager said he was going to jump off the ledge like an old man and he tumbled down in a pile of limbs.
+
+1.12.19 I saw myself in the mirror without makeup and a red line under my left eye. I thought I looked old.
+1.14.19 I took a picture of a dirty corner where the grass had turned to icy mud. I took pictures of the parking signs.
+
+1.15.19 I was in the woods. There was something between us, something kind of magical.
+
+I was going to make an array of your strings:
+
+amandaArray = ["We walked up to the stage. It was so noisy in the room. Over half the seats were empty.", "He was leaning against a wall and his eyes were closing and rolling. His hair was longer. I asked him if he drank and did drugs and he said all of them.", "We were sitting on a brownstone stoop, laughing. A woman walked out of the house and stood in front of us. She pulled up the bottoms of her tight black pants to show us her thin muscled calves.", "I was on a journey with my parents. They were trying to save me."]
