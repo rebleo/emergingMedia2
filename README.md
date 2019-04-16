@@ -119,21 +119,25 @@ Subscription to Lynda.com is available through the New York City Library system.
 * Intro to Programming w/ [p5.js](https://p5js.org/reference/)
 * Variables, Operators + Arrays in JavaScript
 ---
-###### [Week 9](https://github.com/rebleo/emergingMedia2/wiki/Week-09):
-* More Programming Concepts
----
-###### [Week 10](https://github.com/rebleo/emergingMedia2/wiki/Week-10):
-* TBD
----
-###### Week 11:
-* Final Project Proposals
+###### [Week 9](https://github.com/rebleo/emergingMedia2/wiki/Week-09): 
+* Variables, Arrays, for Loops + Objects
 
 ---
+###### [Week 10](https://github.com/rebleo/emergingMedia2/wiki/Week-10): 
+* Technology + the Enviroment
+---
+###### Week 11:
+* Interaction in Art
+* Intro to Data + JavaScript Object Notation (json)
+* Intro to [JQuery](https://jquery.com/)
+---
 ###### Week 12:
-* TBD
+* Final Project Proposals
+* Intro to [Bootstrap](https://getbootstrap.com/docs/3.4/javascript/)
 ---
 ###### Week 13:
-* TBD
+* Thinking about Mobile + Art
+* Final Projects Code Studio
 ---
 ###### Week 14:
 * Final Project User Testing + Code Studio
