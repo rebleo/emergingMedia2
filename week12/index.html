@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title> Week 12 - Bootstrap </title>
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- these are the cdn links to the css-->
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet " href="myStyle.css ">
+
+		<!-- this script tag links the html script to the jquery api-->
+		<!-- you have to declare it before yr local js so the functions load -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<!-- these are the cdn links to the js-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script language="javascript " type="text/javascript " src="sketch.js "></script>
+
+
+	</head>
+
+	<body>
+		<div>
+			this is a default html div w/ no styling.
+		</div>
+		<section class="myImage">
+			<div class="container">
+				this is a default html div w/ a bootstrap container class
+			</div>
+			<h1 class="display-3">this, the display</h1>
+			<!-- "lead" is a bootstrap class that does styling for us! for particular purposes.
+		https://getbootstrap.com/docs/4.0/content/typography/#lead -->
+			<p class="lead">
+				Bootstrap is awesome but we still have to do our own CSS styling. else everything will look like default bootstrap style.
+			</p>
+
+			<div class="alert alert-warning alert-dismissible fade show" role="alert">
+				<strong>this is an alert w/ bootstrap!</strong> You can dismiss it by clicking the x.
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+				<!-- </div>
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="" class="d-block w-100" alt="...">
+					</div>
+				</div>
+			</div> -->
+		</section>
+		<div class="container">
+			<h2>Modal Example</h2>
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open image</button>
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+					<img src="jaffa.jpg" class="figure-img img-fluid rounded" height="400px">
+					<p> Arthur Jafa, Monster</p>
+				</div>
+			</div>
+			<!-- Arthur Jafa, Monster © Arthur Jafa -->
+	</body>
+
+
+</html>
